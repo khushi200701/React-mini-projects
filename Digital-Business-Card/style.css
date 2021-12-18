@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #23252C;
+    color: #FFFFFF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    border-radius: 10px 10px 10px 10px;
+    background-color: #1A1B21;
+    max-width: 317px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.header--image {
+   
+    background-image: url("./Images/pic.jpg");
+    /* background-position: center; */
+    width: 315px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 35px;
+}
+
+.title--heading {
+    font-size: 1.25rem;
+    margin: 15px 0 0 0;
+}
+
+.title--subhead {
+    font-size: .85rem;
+    color: #F3BF99;
+    font-weight: 400;
+}
+
+.title--website {
+    font-size: .7rem;
+    margin: 5px 0 0 0;
+}
+
+.title--website a {
+    cursor: pointer;
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+.buttons {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    font-size: .8rem;
+    font-weight: 500;
+    margin: 15px 35px;
+    grid-gap: 17px;
+}
+
+.buttons--email {
+    padding: 9px 13px 9px 11px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: none;
+    width: 100%;
+}
+
+.buttons--email i {
+    margin: 0 10px 0 0;
+    font-size: .9rem;
+}
+
+.buttons--linkedin {
+    padding: 9px 13px 9px 11px;
+    background-color: #5093E2;
+    color: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: none;
+    width: 100%;
+}
+
+.buttons--linkedin i {
+    margin: 0 10px 0 0;
+    font-size: 1rem;
+}
+
+.info {
+    margin: 15px 35px;
+}
+
+.info--about {
+    font-size: 1rem;
+    color: #F5F5F5;
+}
+
+.info--interest {
+    font-size: 1rem;
+    color: #F5F5F5;
+    margin: 20px 0 0 0;
+}
+
+.info--para {
+    font-size: .75rem;
+    color: #DCDCDC;
+    margin: 5px 0;
+}
+
+.footer {
+    background-color: #161619;
+    padding: 10px 35px;
+    /* border-radius: 0 0 10px 10px; */
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: #918E9B;
+} 
+
+.footer--github {
+    font-size: 1.7rem;
+    margin: 0 10px;
+}
+
+.footer--twitter {
+    font-size: 1.7rem;
+    margin: 0 10px;
+}
